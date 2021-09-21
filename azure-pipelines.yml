@@ -45,6 +45,8 @@ steps:
       print('Hello world 2')
 - task: PythonScript@0
   inputs:
+    scriptSource: 'filePath'
+    inputs:
     scriptSource: inline
     script: |
       import sys
