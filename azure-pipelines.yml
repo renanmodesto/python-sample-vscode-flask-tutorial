@@ -35,8 +35,6 @@ steps:
     pytest
   displayName: 'pytest'
 
-- script: python src/example.py
-
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'
